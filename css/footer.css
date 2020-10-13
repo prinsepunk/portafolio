@@ -29,7 +29,7 @@ footer nav a:hover{
 }
 
 .redesbox{
-    margin: 40px 0;
+    margin: 55px 0;
 }
 
 .redesbox a{
@@ -44,6 +44,11 @@ footer nav a:hover{
     flex-direction: row;
     justify-content: center;
     align-items: center; */
+    /* padding: auto; */
+}
+
+.redesbox a i{
+    font-size: 20px;
 }
 
 .redesbox a:hover{
@@ -54,4 +59,10 @@ footer nav a:hover{
 .firm{
     display: flex;
     text-align: center;
+}
+
+.firm p{
+    padding-top: 15px;
+    padding-right: 10px;
+    font-weight: bold;
 }
