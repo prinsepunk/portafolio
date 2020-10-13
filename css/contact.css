@@ -1,3 +1,55 @@
 #contact{
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    background-color: #F25CA2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.contactbox{
+    border: 1px solid #0433BF;
+    width: 70%;
+    margin: 70px;
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    background-color: #ffffff;
+    /* background-color: #F6F7FC; */
+}
+
+.contactbox .contactame{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 90%;
+    margin: 10px;
+    border: 1px solid red;
+}
+
+.contactbox h3{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.sociales{
+    margin-top: 30px;
+}
+
+.red{
+    display: flex;
+    margin: 10px 0;
+}
+
+.red i{
+    font-size: 20px;
+    margin: 0px 15px;
+}
+
+.contactbox .escribime{
+    display: flex;
+    border: 1px solid red;
+    width: 50%;
+    height: 90%;
+}
+
