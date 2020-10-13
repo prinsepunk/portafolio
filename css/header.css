@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+     /* color: white; */
+}
+
+header nav{
+    display: flex;
+    /* background-color: #0433BF; */
+    padding: 35px;
+    box-shadow: 0px 5px 69px 9px rgba(156,150,156,1);
+    justify-content: flex-end;
+    
+}
+
+header nav a{
+    text-decoration: none;
+    color: #0433BF;
+    font-weight: bold;
+    padding: 8px 15px;
+}
+
+header nav a:hover{
+    color: #F25CA2;
+}
+
+/* header nav a:nth-child(4){
+    background-color: #EE8EA5;
+    border-radius: 13%;
+} */
+
+main{
+    background-color: #F6F7FC;
+}
