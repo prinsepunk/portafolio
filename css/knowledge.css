@@ -1,0 +1,49 @@
+#conocimientos{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+
+#conocimientos h3{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    /* color: #0433BF; */
+}
+
+#conocimientos p{
+    width: 350px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#conocimientos .langbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.langbox .lang{
+    /* padding: 30px; */
+    border: 1px solid #0433BF;
+    border-radius: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, rgba(4,51,191,0.38279061624649857) 0%, rgba(242,92,162,0.3799894957983193) 46%);
+}
+
+.langbox .lang i{
+    font-size: 100px;
+    padding-bottom: 15px;
+}
+
+.langbox .lang span{
+    font-weight: bold;
+}

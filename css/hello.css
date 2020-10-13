@@ -45,4 +45,5 @@ figure img{
 #hello .intro button:hover{
     color: #021859;
     background-color: #F25CA2;
+    cursor: pointer;
 }
