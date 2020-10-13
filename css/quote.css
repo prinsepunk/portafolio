@@ -1,0 +1,23 @@
+#quote{
+    background-color: #F25CA2;
+    color: #0433BF;
+    /* color: #ffffff; */
+    /* font-weight: 600px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+
+#quote figure img{
+    width: 150px;
+    margin-bottom: 50px;
+}
+
+#quote p{
+    font-size: 25px;
+    width: 700px;
+    text-align: center;
+    margin-bottom: 20px;
+}
