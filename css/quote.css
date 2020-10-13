@@ -8,6 +8,7 @@
     justify-content: center;
     align-items: center;
     padding: 70px;
+    font-weight: bold;
 }
 
 #quote figure img{
