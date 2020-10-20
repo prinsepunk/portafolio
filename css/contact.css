@@ -1,55 +1,63 @@
 #contact{
-    /* background-color: #ffffff; */
     background-color: #F25CA2;
+    padding: 18% 4%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.contactbox{
-    border: 1px solid #0433BF;
-    width: 70%;
-    margin: 70px;
-    border-radius: 10px;
-    padding: 50px;
-    display: flex;
+.contact-box{
     background-color: #ffffff;
-    /* background-color: #F6F7FC; */
-}
-
-.contactbox .contactame{
+    border: 1px solid #0433BF;
+    border-radius: 10px;
+    padding: 6%;
     display: flex;
     flex-direction: column;
-    width: 50%;
-    height: 90%;
-    margin: 10px;
-    border: 1px solid red;
 }
 
-.contactbox h3{
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 30px;
+.contactame{
+    margin: 5%;
 }
 
-.sociales{
-    margin-top: 30px;
+.escribime{
+    padding: 6%;
 }
 
-.red{
+.contact-title{
+    font-size: 2em;
+    margin-bottom: 2%;
+}
+
+.contactame-descrip{
+    margin-bottom: 3%;
+}
+
+.social-red{
     display: flex;
-    margin: 10px 0;
+    align-items: center;
 }
 
-.red i{
-    font-size: 20px;
-    margin: 0px 15px;
+.social-red img{
+    width: 30px;
+    margin: 5px 15px;
 }
 
-.contactbox .escribime{
-    display: flex;
-    border: 1px solid red;
-    width: 50%;
-    height: 90%;
-}
+@media(min-width: 670px){
+    #contact{
+        padding-top: 10%;
+        padding-bottom: 8%;
+    }
 
+    .contact-box{
+        flex-direction: row;
+    }
+
+    .contactame{
+        width: 50%;
+    }
+
+    .escribime{
+        width: 50%;
+    }
+}

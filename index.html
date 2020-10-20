@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+
+    <!-- Stylesheets -->
     <link href="css/header.css" type="text/css" rel="stylesheet"/>
     <link href="css/hello.css" type="text/css" rel="stylesheet"/>
     <link href="css/knowledge.css" type="text/css" rel="stylesheet"/>
@@ -11,13 +13,11 @@
     <link href="css/proyects.css" type="text/css" rel="stylesheet"/>
     <link href="css/contact.css" type="text/css" rel="stylesheet"/>
     <link href="css/footer.css" type="text/css" rel="stylesheet"/>
+
+    <!-- Favicon -->
     <link rel="icon" href="img/favicon.ico">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800;900&display=swap" rel="stylesheet">
 </head>
@@ -25,10 +25,20 @@
     <!-- Comienzo del nav -->
     <header>
         <nav>
-            <a href="#hello">HOLA</a>
-            <a href="#conocimientos">CONOCIMIENTOS</a>
-            <a href="#proyects">PROYECTOS</a>
-            <a href="#contact">CONTACTO</a>
+            <ul class="menu-box">
+                <li class="menu-item">
+                    <a href="#hello">HOLA</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#know">CONOCIMIENTOS</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#proyects">PROYECTOS</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#contact">CONTACTO</a>
+                </li>
+            </ul>
         </nav>
     </header>
     <!-- Fin del nav -->
@@ -36,37 +46,37 @@
     <main>
     <!-- Comienzo del header -->
         <section id="hello">
-            <article class="intro">
-                <h2>¡Buenas! Soy</h2>
-                <h1>Juliana Planas</h1>
-                <p>Desarrolladora, docente y productora cultural.</p>
-                <button>LO QUE HAGO</button>
+            <article class="intro-box">
+                <h2 class="intro-title">¡Buenas! Soy</h2>
+                <h1 class="intro-name">Juliana Planas</h1>
+                <p class="intro-descrip">Desarrolladora, docente y productora cultural.</p>
+                <button class="intro-button">LO QUE HAGO</button>
             </article>
-            <figure>
+            <figure class="intro-image">
                 <img src="img/computer.png" alt="Ilustracion de una chica con una computadora">
             </figure>
         </section>
         <!-- Fin del header -->
 
         <!-- Comienzo de Mis conocimientos -->
-        <section id="conocimientos">
-            <h3>Mis conocimientos</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga fugiat eius expedita et necessitatibus porro.</p>
-            <article class="langbox">
-                <div class="lang">
-                    <i class="devicon-html5-plain"></i>
+        <section id="know">
+            <h3 class="know-title">Mis conocimientos</h3>
+            <p class="know-descrip">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga fugiat eius expedita et necessitatibus porro.</p>
+            <article class="know-box">
+                <div class="know-icon">
+                    <img src="./img/html5-brands.svg" alt="HTML 5 icon">
                     <span>HTML 5</span>
                 </div>
-                <div class="lang">
-                    <i class="devicon-css3-plain"></i>
+                <div class="know-icon">
+                    <img src="./img/css3-alt-brands.svg" alt="CSS 3 icon">
                     <span>CSS 3</span>
                 </div>
-                <div class="lang">
-                    <i class="devicon-git-plain"></i>
+                <div class="know-icon">
+                    <img src="./img/git-brands.svg" alt="GIT icon">
                     <span>GIT</span>
                 </div>
-                <div class="lang">
-                    <i class="devicon-github-plain colored"></i>
+                <div class="know-icon">
+                    <img src="./img/github-brands.svg" alt="GitHub icon">
                     <span>GITHUB</span>
                 </div>
             </article>
@@ -76,18 +86,18 @@
         <!-- Comienzo de Quote -->
         <section id="quote">
             <figure>
-                <img src="img/quote.png" alt="Quote mark">
+                <img class="quote-image" src="img/quote.png" alt="Quote mark">
             </figure>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti tempora eveniet ab laborum non iste, voluptates inventore incidunt corporis libero pariatur. Quod ea iure quae culpa fuga laudantium sunt omnis?</p>
-            <p>Someone</p>
+            <p class="quote-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti tempora eveniet ab laborum non iste, voluptates inventore incidunt corporis libero pariatur. Quod ea iure quae culpa fuga laudantium sunt omnis?</p>
+            <p class="quote-text">Someone</p>
         </section>
         <!-- Fin de Quote -->
 
         <!-- Comienzo de Mis Proyectos -->
         <section id="proyects">
-            <h3>Mis proyectos</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, culpa?</p>
-            <article class="proyectbox">
+            <h3 class="proyect-title">Mis proyectos</h3>
+            <p class="proyect-descrip">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, culpa?</p>
+            <article class="proyect-box">
                 <a href="#" target="_blank">
                     <div class="proyect">
                         <figure>
@@ -118,27 +128,27 @@
 
         <!-- Comienzo de Contacto -->
         <section id="contact">
-            <article class="contactbox">
+            <article class="contact-box">
                 <div class="contactame">
-                    <h3>Contactame</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quae? Rem eaque sequi veritatis nostrum eum eius doloribus inventore in perspiciatis odio? Dicta blanditiis, quo quis asperiores numquam repellat ratione!</p>
-                    <div class="sociales">
-                        <div class="red">
-                            <i class="devicon-linkedin-plain"></i>
+                    <h3 class="contact-title">Contactame</h3>
+                    <p class="contactame-descrip">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quae? Rem eaque sequi veritatis nostrum eum eius doloribus inventore in perspiciatis odio? Dicta blanditiis, quo quis asperiores numquam repellat ratione!</p>
+                    <div class="social">
+                        <div class="social-red">
+                            <img src="./img/linkedin-in-brands.svg" alt="">
                             <p>julianaplanas</p>
                         </div>
-                        <div class="red">
-                            <i class="devicon-github-plain colored"></i>
+                        <div class="social-red">
+                            <img src="./img/github-brands.svg" alt="">
                             <p>prinsepunk</p>
                         </div>
-                        <div class="red">
-                            <i class="devicon-google-plain"></i>
+                        <div class="social-red">
+                            <img src="./img/google-brands.svg" alt="">
                             <p>planasjuliana@gmail.com</p>
                         </div>
                     </div>
                 </div>
                 <div class="escribime">
-                    <h3>Escribime</h3>
+                    <h3 class="contact-title">Escribime</h3>
                 </div>
             </article>
         </section>
@@ -152,18 +162,20 @@
                 <a href="#proyects">PROYECTOS</a>
                 <a href="#contact">CONTACTO</a>
             </nav>
-            <div class="redesbox">
+            <div class="footer-social">
                 <a href="#">
-                    <i class="devicon-github-plain"></i>
+                    <img src="./img/github-brands.svg" alt="">
                 </a>
                 <a href="#">
-                    <i class="devicon-google-plain"></i>
+                    <img src="./img/google-brands.svg" alt="">
                 </a>
                 <a href="#">
-                    <i class="devicon-linkedin-plain"></i>
+                    <img src="./img/linkedin-in-brands.svg" alt="">
                 </a>
+            </div>
+            <div class="firm">
                 <p>Hecho por Juliana Planas </p>
-                <img src="img/woman.ico" alt="Mujer con rulos">
+                <img src="img/woman.png" alt="Mujer con rulos">
             </div>
         </footer>
         <!-- Fin del Footer -->
