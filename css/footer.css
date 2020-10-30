@@ -29,10 +29,6 @@ footer nav a:hover{
     display: flex;
 }
 
-.footer-social a{
-    margin: 5%;
-}
-
 .footer-social a img{
     width: 30px;
     padding: 20px 0;
@@ -53,6 +49,7 @@ footer nav a:hover{
     color: #0433BF;
     padding-top: 5px;
 }
+
 
 @media(min-width:670px){
     footer{
