@@ -39,10 +39,6 @@
     background: linear-gradient(0deg, rgba(242,92,162,1) 0%, rgba(11,158,217,1) 51%, rgba(4,51,191,1) 100%);
 }
 
-.know-icon img{
-    width: 100px;
-    margin-bottom: 10px;
-}
 
 .know-icon span{
     font-weight: 800;
@@ -59,8 +55,8 @@
         height: 280px;
     }
 
-    .know-icon img{
-        width: 130px;
+    .know-icon i{
+        font-size: 8em;
     }
 
     .know-title{

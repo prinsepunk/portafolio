@@ -29,13 +29,15 @@ footer nav a:hover{
     display: flex;
 }
 
-.footer-social a img{
+.footer-social a i{
     width: 30px;
     padding: 20px 0;
     margin: 0 10px;
+    color: #0433BF;
+    font-size: 2em;
 }
 
-.footer-social a img:hover{
+.footer-social a i:hover{
     opacity: 0.6;
 }
 
@@ -60,7 +62,7 @@ footer nav a:hover{
         font-size: 20px;
     }
 
-    .footer-social a img{
+    .footer-social a i{
         width: 60px;
         padding: 20px 10px;
     }

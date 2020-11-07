@@ -33,26 +33,41 @@
 .social-red{
     display: flex;
     align-items: center;
+    text-decoration: none;
+    color: black;
+    -webkit-transition: font-size 1s ease;
+    transition: font-size 1s ease;
 }
 
-.social-red img{
-    width: 30px;
+.social-red i{
+    font-size: 2em;
     margin: 5px 15px;
 }
 
-.social-red img:hover{
+.social-red:hover{
+    font-size: 20px;
+}
+
+.social-red i:hover{
     background-color: #F25CA2;
     color: white;
     padding: 2px;
     border-radius: 200px;
 }
 
-.social-red:hover .social-red a p{
+.social-red p:hover{
     color: #F25CA2;
 }
 
-.social-red:hover .social-red img{
+.social-red:hover .icono{
+    /* color: #F25CA2; */
     background-color: #F25CA2;
+    color: #ffffff;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+.social-red:hover .social-name{
     color: #F25CA2;
 }
 
@@ -105,6 +120,10 @@
     color: #021859;
     background-color: #F25CA2;
     cursor: pointer;
+}
+
+input:invalid:focus{
+    box-shadow: 0px 0px 5px 0px rgba(245,10,10,1);
 }
 
 @media(min-width: 670px){

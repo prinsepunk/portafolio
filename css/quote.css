@@ -8,9 +8,10 @@
     padding: 18% 4%;
 }
 
-#quote figure{
+#quote i{
     display: flex;
     justify-content: center;
+    font-size: 10em;
 }
 
 .quote-image{
@@ -27,7 +28,7 @@
 
 @media(min-width: 670px){
     #quote{
-        padding-top: 10%;
+        padding-top: 8%;
         padding-bottom: 8%;
     }
 
