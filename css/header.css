@@ -3,12 +3,15 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
 }
 
 :root{
     --pink: #F25CA2;
     --blue: #0433BF;
 }
+
+/* menu hamburguesa */
 
 #menu-toggle
 {
@@ -130,6 +133,8 @@
   transform: none;
 }
 
+/* menu ampliado */
+
 .menu-box{
     display: flex;
     flex-wrap: wrap;
@@ -169,7 +174,7 @@
         display: none;
     }
 
-    .header{
+    #header{
         height: 10vh;
         position: fixed;
         top: 0;
@@ -186,6 +191,10 @@
 
     .menu-item a{
         line-height: 50px;
+    }
+
+    .menu-display{
+      display: block;
     }
 }
 
