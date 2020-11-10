@@ -85,7 +85,7 @@
 
     .proyect{
         width: 350px;
-        height: auto;
+        /* height: auto; */
     }
     .proyect figure img{
         width: 100%;
