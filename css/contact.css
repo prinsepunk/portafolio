@@ -17,8 +17,8 @@
 }
 
 .contact-side{
-    margin: 5%;
-    width: 50%;
+    padding: 5%;
+    width: 90%;
 }
 
 .contact-title{
@@ -45,7 +45,7 @@
 }
 
 .social-red:hover{
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .social-red i:hover{
@@ -72,7 +72,8 @@
 }
 
 .escribime-row{
-    display: flex;  
+    display: flex; 
+    flex-direction: column; 
     justify-content: space-between; 
 }
 
@@ -126,7 +127,7 @@ input:invalid:focus{
     box-shadow: 0px 0px 5px 0px rgba(245,10,10,1);
 }
 
-@media(min-width: 670px){
+@media(min-width: 1000px){
     #contact{
         padding-top: 10%;
         padding-bottom: 8%;
@@ -138,9 +139,22 @@ input:invalid:focus{
 
     .contactame{
         width: 50%;
+        padding: 3%;
+        border: 1px solid red;
     }
 
     .escribime{
         width: 50%;
+        padding: 3%;
+        border: 1px solid violet;
+    }
+
+    .contact-side{
+        margin: 5%;
+        width: 50%;
+    }
+
+    .escribime-row{
+        flex-direction: row;
     }
 }

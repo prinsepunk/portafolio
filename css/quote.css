@@ -11,7 +11,7 @@
 #quote i{
     display: flex;
     justify-content: center;
-    font-size: 10em;
+    font-size: 5em;
 }
 
 .quote-image{
@@ -36,4 +36,9 @@
         font-size: 2em;
         width: 60%;
     }
+
+    #quote i{
+        font-size: 8em;
+    }
 }
+

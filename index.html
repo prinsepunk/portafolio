@@ -26,7 +26,21 @@
 <body>
     <!-- Comienzo del nav -->
     <header>
-        <nav>
+        <nav role="navigation">
+            <div id="menuToggle">
+              <input type="checkbox" />
+              <span></span>
+              <span></span>
+              <span></span>
+              <ul id="menu">
+                <a href="#hello"><li>Hola</li></a>
+                <a href="#know"><li>Conocimientos</li></a>
+                <a href="#proyects"><li>Proyectos</li></a>
+                <a href="#contact"><li>Contacto</li></a>
+              </ul>
+            </div>
+          </nav>
+        <nav class="menu-display">
             <ul class="menu-box">
                 <li class="menu-item">
                     <a href="#hello">HOLA</a>
@@ -177,9 +191,9 @@
         <!-- Comienzo de Contacto -->
         <section id="contact">
             <article class="contact-box">
-                <div class="contact-side">
+                <div class="contact-side contactame">
                     <h3 class="contact-title">Contactame</h3>
-                    <p class="contactame-descrip">Ante cualquier consulta o interés, no dudés en contactarme.</p>
+                    <p class="contactame-descrip">Si tenés ideas que querés llevar a cabo o ante cualquier consulta o interés, no dudés en contactarme.</p>
                     <div class="social">
                         <a class="social-red" href="https://www.linkedin.com/in/julianaplanas/" target="_blank">
                             <i class="fab fa-linkedin-in icono"></i>
@@ -229,7 +243,7 @@
         <footer>
             <nav class="nav">
                 <a href="#header">HOLA</a>
-                <a href="#conocimientos">CONOCIMIENTOS</a>
+                <a href="#know">CONOCIMIENTOS</a>
                 <a href="#proyects">PROYECTOS</a>
                 <a href="#contact">CONTACTO</a>
             </nav>

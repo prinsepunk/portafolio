@@ -7,6 +7,10 @@ footer{
     width: 100%;
 }
 
+.nav{
+    display: none;
+}
+
 footer nav a{
     text-decoration: none;
     color: #0433BF;
@@ -66,68 +70,8 @@ footer nav a:hover{
         width: 60px;
         padding: 20px 10px;
     }
+
+    .nav{
+        display: flex;
+    }
 }
-
-
-/* footer{
-    height: 30vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
-/* 
-footer .nav a{
-    text-decoration: none;
-    color: #0433BF;
-    font-weight: bold;
-    margin: 0 15px;
-} */
-
-/* footer nav a:hover{
-    color: #F25CA2;
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
-    background-position: bottom;
-    background-repeat: repeat-x;
-    background-size: 20%;
-    border-bottom: 0;
-    padding-bottom: .3em;
-    text-decoration: none;
-} */
-
-/* .redesbox{
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
-/* .redesbox a{
-    text-decoration: none;
-} */
-
-/* .redesbox a i{
-    font-size: 25px;
-    color: #0433BF;
-    margin: 0 15px;
-}
-
-.redesbox img{
-    height: 35px;
-} */
-
-/* .redesbox a:hover{
-    background: linear-gradient(0deg, rgba(242,92,162,1) 0%, rgba(11,158,217,1) 51%, rgba(4,51,191,1) 100%);
-    height: 350px;
-} */
-
-/* .firm{
-    display: flex;
-    text-align: center;
-} */
-
-/* .redesbox p{
-    padding-right: 10px;
-    font-weight: bold;
-    color: #0433BF;
-} */
