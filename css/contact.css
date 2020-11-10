@@ -1,5 +1,10 @@
+:root{
+    --pink: #F25CA2;
+    --blue: #0433BF;
+}
+
 #contact{
-    background-color: #F25CA2;
+    background-color: var(--pink);
     padding: 5% 4%;
     display: flex;
     flex-direction: column;
@@ -9,7 +14,7 @@
 
 .contact-box{
     background-color: #ffffff;
-    border: 1px solid #0433BF;
+    border: 1px solid var(--blue);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -49,26 +54,26 @@
 }
 
 .social-red i:hover{
-    background-color: #F25CA2;
+    background-color: var(--pink);
     color: white;
     padding: 2px;
     border-radius: 200px;
 }
 
 .social-red p:hover{
-    color: #F25CA2;
+    color: var(--pink);
 }
 
 .social-red:hover .icono{
     /* color: #F25CA2; */
-    background-color: #F25CA2;
+    background-color:var(--pink);
     color: #ffffff;
     border-radius: 100%;
     padding: 5px;
 }
 
 .social-red:hover .social-name{
-    color: #F25CA2;
+    color: var(--pink);
 }
 
 .escribime-row{
@@ -95,17 +100,17 @@
 .info-case input, .info-case textarea{
     padding: 6px;
     border:0;
-    border-bottom: 1px solid #F25CA2; 
+    border-bottom: 1px solid var(--pink); 
 }
 
 .info-case input:hover, .info-case textarea:hover, .info-case input:focus, .info-case textarea:focus{
-    box-shadow: 0px 0px 17px 1px rgba(242,92,162,1);
+    box-shadow: 0px 0px 17px 1px var(--pink);
     outline: none;
 }
 
 .escribime-button button{
     text-decoration: none;
-    background-color: #0433BF;
+    background-color: var(--blue);
     color: white;
     padding: 2% 0;
     border-radius: 25px;
@@ -119,7 +124,7 @@
 
 .escribime-button button:hover{
     color: #021859;
-    background-color: #F25CA2;
+    background-color: var(--pink);
     cursor: pointer;
 }
 
@@ -140,13 +145,11 @@ input:invalid:focus{
     .contactame{
         width: 50%;
         padding: 3%;
-        border: 1px solid red;
     }
 
     .escribime{
         width: 50%;
         padding: 3%;
-        border: 1px solid violet;
     }
 
     .contact-side{

@@ -1,3 +1,8 @@
+:root{
+    --pink: #F25CA2;
+    --blue: #0433BF;
+}
+
 footer{
     height: 25vh;
     display: flex;
@@ -13,13 +18,13 @@ footer{
 
 footer nav a{
     text-decoration: none;
-    color: #0433BF;
+    color: var(--blue);
     font-weight: 700;
     margin: 0 10px;
 }
 
 footer nav a:hover{
-    color: #F25CA2;
+    color: var(--pink);
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
     background-position: bottom;
     background-repeat: repeat-x;
@@ -37,7 +42,7 @@ footer nav a:hover{
     width: 30px;
     padding: 20px 0;
     margin: 0 10px;
-    color: #0433BF;
+    color: var(--blue);
     font-size: 2em;
 }
 
@@ -52,7 +57,7 @@ footer nav a:hover{
 .firm p{
     padding-right: 10px;
     font-weight: bold;
-    color: #0433BF;
+    color: var(--blue);
     padding-top: 5px;
 }
 

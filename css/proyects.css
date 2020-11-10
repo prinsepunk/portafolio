@@ -1,3 +1,8 @@
+:root{
+    --pink: #F25CA2;
+    --blue: #0433BF;
+}
+
 #proyects{
     padding: 18% 12%;
     display: flex;
@@ -29,7 +34,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid #0433BF;
+    border: 1px solid var(--blue);
     border-radius: 10px;
     background: linear-gradient(0deg, rgba(242,92,162,1) 0%, rgba(11,158,217,1) 51%, rgba(4,51,191,1) 100%);
     margin: 3%;
