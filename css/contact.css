@@ -132,13 +132,13 @@
     outline: none;
 }
 
-input:invalid, textarea:invalid{
+/* input:invalid, textarea:invalid{
     border: 1px solid rgba(245,10,10,1);
 }
 
 input:valid, textarea:valid{
     border: 1px solid green;
-}
+} */
 
 @media(min-width: 1000px){
     #contact{

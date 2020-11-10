@@ -10,7 +10,7 @@
     --blue: #0433BF;
 }
 
-#menuToggle
+#menu-toggle
 {
   display: block;
   position: fixed;
@@ -23,7 +23,7 @@
   user-select: none;
 }
 
-#menuToggle a
+#menu-toggle a
 {
   text-decoration: none;
   color: var(--blue);
@@ -31,12 +31,12 @@
   transition: color 0.3s ease;
 }
 
-#menuToggle a:hover
+#menu-toggle a:hover
 {
   color: var(--pink);
 }
 
-#menuToggle input
+#menu-toggle input
 {
   display: block;
   width: 40px;
@@ -53,7 +53,7 @@
   -webkit-touch-callout: none;
 }
 
-#menuToggle span
+#menu-toggle span
 {
   display: block;
   width: 33px;
@@ -73,35 +73,35 @@
               opacity 0.55s ease;
 }
 
-#menuToggle span:first-child
+#menu-toggle span:first-child
 {
   transform-origin: 0% 0%;
 }
 
-#menuToggle span:nth-last-child(2)
+#menu-toggle span:nth-last-child(2)
 {
   transform-origin: 0% 100%;
 }
 
-#menuToggle input:checked ~ span
+#menu-toggle input:checked ~ span
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
   background: #232323;
 }
 
-#menuToggle input:checked ~ span:nth-last-child(3)
+#menu-toggle input:checked ~ span:nth-last-child(3)
 {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-#menuToggle input:checked ~ span:nth-last-child(2)
+#menu-toggle input:checked ~ span:nth-last-child(2)
 {
   transform: rotate(-45deg) translate(0, -1px);
 }
 
-#menu
+#menu-burger
 {
   position: absolute;
   width: 240px;
@@ -119,13 +119,13 @@
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
-#menu li
+#menu-burger li
 {
   padding: 10px 0;
   font-size: 22px;
 }
 
-#menuToggle input:checked ~ ul
+#menu-toggle input:checked ~ ul
 {
   transform: none;
 }
@@ -165,11 +165,11 @@
 
 @media(min-width:500px){
     
-    #menuToggle{
+    #menu-toggle{
         display: none;
     }
 
-    header{
+    .header{
         height: 10vh;
         position: fixed;
         top: 0;
@@ -190,7 +190,7 @@
 }
 
 @media(min-width:1000px){
-    header{
+    .header{
         height: 8vh;
         padding: 0;
     }
