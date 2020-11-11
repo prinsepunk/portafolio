@@ -21,10 +21,16 @@ Para obtener el código, seguí estos pasos:
 
 <br>
 
+¡Así debería verse el resultado final!
 
+![imagen](./img/proyecto-completo.png)
 
 ***
 
 ## Agradecimientos
 
 Me acompañó en este proyecto mi profesor, [John Parra](https://github.com/Jonhks).
+
+***
+
+Proyecto realizado por [Juliana Planas](https://www.linkedin.com/in/julianaplanas/).
