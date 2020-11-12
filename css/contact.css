@@ -46,7 +46,7 @@
 
 .social-red i{
     font-size: 2em;
-    margin: 5px 15px;
+    margin: 5px 40px;
 }
 
 .social-red:hover{
@@ -131,14 +131,6 @@
 .escribime-button button:focus{
     outline: none;
 }
-
-/* input:invalid, textarea:invalid{
-    border: 1px solid rgba(245,10,10,1);
-}
-
-input:valid, textarea:valid{
-    border: 1px solid green;
-} */
 
 @media(min-width: 1000px){
     #contact{

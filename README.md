@@ -2,7 +2,7 @@
 
 Este proyecto fue desarrollado en el marco de la evaluación final del primer módulo del curso de FrontEnd de ADA. Se utilizó **HTML5** and **CSS3**, se aplicaron las reglas semánticas adecuadas y se buscó generar un sitio accesible y responsivo. 
 
-Podés ver la versión deployada [en Github](https://prinsepunk.github.io/portafolio/) o en [Netlify]().
+Podés ver la versión deployada [en Github](https://prinsepunk.github.io/portafolio/) o en [Netlify](https://distracted-jackson-6b02ad.netlify.app/).
 
 <br>
 
