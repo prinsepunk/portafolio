@@ -47,3 +47,9 @@
     }
 }
 
+@media screen and (orientation:landscape)
+and (min-device-width: 500px){
+   #quote{
+       height: 100vh;
+   }
+}

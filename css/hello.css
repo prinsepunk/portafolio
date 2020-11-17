@@ -59,6 +59,10 @@
     text-align: center;
 }
 
+.intro-button-link{
+    text-decoration: none;
+}
+
 .intro-button:hover{
     color: #021859;
     background-color: var(--pink);
@@ -99,4 +103,15 @@
     .intro-button{
         width: 300px;
     }
+}
+
+@media screen and (orientation:landscape)
+and (min-device-width: 500px){
+   .hello-box{
+       flex-direction: row;
+   }
+
+   .intro-box{
+       font-size: 15px;
+   }
 }
