@@ -40,31 +40,31 @@
     <header id="header">
         <nav role="navigation">
             <div id="menu-toggle">
-              <input type="checkbox" />
+              <input type="checkbox" aria-label="menu-button"/>
               <span></span>
               <span></span>
               <span></span>
               <ul id="menu-burger">
-                <a href="#hello"><li>Hola</li></a>
-                <a href="#know"><li>Conocimientos</li></a>
-                <a href="#proyects"><li>Proyectos</li></a>
-                <a href="#contact"><li>Contacto</li></a>
+                <a role="button" href="#hello" aria-label="introduccion"><li>Hola</li></a>
+                <a role="button" href="#know" aria-label="conocimientos"><li>Conocimientos</li></a>
+                <a role="button" aria-label="proyectos" href="#proyects"><li>Proyectos</li></a>
+                <a role="button" aria-label="contacto" href="#contact"><li>Contacto</li></a>
               </ul>
             </div>
           </nav>
         <nav class="menu-display">
             <ul class="menu-box">
                 <li class="menu-item">
-                    <a href="#hello">HOLA</a>
+                    <a role="button" aria-label="introduccion" href="#hello">HOLA</a>
                 </li>
                 <li class="menu-item">
-                    <a href="#know">CONOCIMIENTOS</a>
+                    <a role="button" aria-label="conocimientos" href="#know">CONOCIMIENTOS</a>
                 </li>
                 <li class="menu-item">
-                    <a href="#proyects">PROYECTOS</a>
+                    <a role="button" aria-label="proyectos" href="#proyects">PROYECTOS</a>
                 </li>
                 <li class="menu-item">
-                    <a href="#contact">CONTACTO</a>
+                    <a role="button" aria-label="contacto" href="#contact">CONTACTO</a>
                 </li>
             </ul>
         </nav>
@@ -79,7 +79,7 @@
                     <h2 class="intro-title">¡Buenas! Soy</h2>
                     <h1 class="intro-name">Juliana Planas</h1>
                     <p class="intro-descrip">Desarrolladora, lingüísta y productora cultural.</p>
-                    <a class="intro-button-link" href="#proyects">
+                    <a role="button" class="intro-button-link" href="#proyects">
                         <div class="intro-button">LO QUE HAGO</div>
                     </a>
                 </div>
@@ -96,31 +96,31 @@
             <p class="know-descrip"> Actualmente manejo los siguientes lenguajes y herramientas. </p>
             <article class="know-box">
                 <div class="know-icon">
-                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-html5" aria-hidden="true"></i>
                     <span>HTML 5</span>
                 </div>
                 <div class="know-icon">
-                    <i class="devicon-css3-plain"></i>
+                    <i class="devicon-css3-plain" aria-hidden="true"></i>
                     <span>CSS 3</span>
                 </div>
                 <div class="know-icon">
-                    <i class="fab fa-git"></i>
+                    <i class="fab fa-git" aria-hidden="true"></i>
                     <span>GIT</span>
                 </div>
                 <div class="know-icon">
-                    <i class="fab fa-python"></i>
+                    <i class="fab fa-python" aria-hidden="true"></i>
                     <span>PYTHON</span>
                 </div>
                 <div class="know-icon">
-                    <i class="fab fa-sass"></i>
+                    <i class="fab fa-sass" aria-hidden="true"></i>
                     <span>SASS</span>
                 </div>
                 <div class="know-icon">
-                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-js-square" aria-hidden="true"></i>
                     <span>JAVASCRIPT</span>
                 </div>
                 <div class="know-icon">
-                    <i class="fab fa-react"></i>
+                    <i class="fab fa-react" aria-hidden="true"></i>
                     <span>REACT</span>
                 </div>
             </article>
@@ -129,7 +129,7 @@
 
         <!-- Comienzo de Quote -->
         <section id="quote">
-            <i class="fas fa-quote-left quote-image"></i>
+            <i class="fas fa-quote-left quote-image" aria-hidden="true"></i>
             <blockquote class="quote-text">A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away.</blockquote>
             <p class="quote-text">Antoine de Saint-Exupéry</p>
         </section>
@@ -140,58 +140,58 @@
             <h3 class="proyect-title">Mis proyectos</h3>
             <p class="proyect-descrip">Algunos de los proyectos en los que trabajé recientemente.</p>
             <article class="proyect-box">
-                <a href="https://prinsepunk.github.io/portafolio/" target="_blank">
+                <a role="button" href="https://prinsepunk.github.io/portafolio/" target="_blank">
                     <div class="proyect">
                         <figure>
-                            <img src="img/output-onlinepngtools.png" alt="Portafolio">
+                            <img src="img/output-onlinepngtools.png" alt="Proyecto portafolio">
                         </figure>
                         <figcaption>PORTFOLIO</figcaption>
                     </div>
                 </a>
-                <a href="#" target="_blank">
+                <a role="button" href="#" target="_blank">
                     <div class="proyect">
                         <figure>
-                            <img src="./img/memes.png" alt="Generador de memes">
+                            <img src="./img/memes.png" alt="Proyecto generador de memes">
                         </figure>
                         <figcaption>GENERADOR DE MEMES</figcaption>
                     </div>
                 </a>
-                <a href="#" target="_blank">
+                <a role="button" href="#" target="_blank">
                     <div class="proyect">
                         <figure>
-                            <img src="./img/match3.png" alt="Match 3">
+                            <img src="./img/match3.png" alt="Proyecto match 3">
                         </figure>
                         <figcaption>MATCH 3</figcaption>
                     </div>
                 </a>
-                <a href="#" target="_blank">
+                <a role="button" href="#" target="_blank">
                     <div class="proyect">
                         <figure>
-                            <img src="./img/gastos.png" alt="Controlador de gastos">
+                            <img src="./img/gastos.png" alt="Poryecto controlador de gastos">
                         </figure>
                         <figcaption>CONTROLADOR DE GASTOS</figcaption>
                     </div>
                 </a>
-                <a href="#" target="_blank">
+                <a role="button" href="#" target="_blank">
                     <div class="proyect">
                         <figure>
-                            <img src="./img/reuniones.png" alt="Administrador de reuniones">
+                            <img src="./img/reuniones.png" alt="Proyecto administrador de reuniones">
                         </figure>
                         <figcaption>ADMINISTRADOR DE REUNIONES</figcaption>
                     </div>
                 </a>
-                <a href="#" target="_blank">
+                <a role="button" href="#" target="_blank">
                     <div class="proyect">
                         <figure>
-                            <img src="./img/todoapp.png" alt="Todo app">
+                            <img src="./img/todoapp.png" alt="Proyecto todo app">
                         </figure>
                         <figcaption>TODO APP</figcaption>
                     </div>
                 </a>
-                <a href="#" target="_blank">
+                <a role="button" href="#" target="_blank">
                     <div class="proyect">
                         <figure>
-                            <img src="./img/peliculas.png" alt="Buscador de películas">
+                            <img src="./img/peliculas.png" alt="Proyecto buscador de películas">
                         </figure>
                         <figcaption>BUSCADOR DE PELÍCULAS</figcaption>
                     </div>
@@ -207,16 +207,16 @@
                     <h3 class="contact-title">Contactame</h3>
                     <p class="contactame-descrip">Si tenés ideas que querés llevar a cabo o ante cualquier consulta o interés, no dudés en contactarme.</p>
                     <div class="social">
-                        <a class="social-red" href="https://www.linkedin.com/in/julianaplanas/" target="_blank">
-                            <i class="fab fa-linkedin-in icono"></i>
+                        <a role="button" class="social-red" href="https://www.linkedin.com/in/julianaplanas/" target="_blank" aria-label="linkedin">
+                            <i class="fab fa-linkedin-in icono" aria-hidden="true"></i>
                             <p class="social-name">julianaplanas</p>
                         </a>
-                        <a class="social-red" href="https://github.com/prinsepunk" target="_blank">
-                            <i class="fab fa-github icono"></i>
+                        <a role="button" class="social-red" href="https://github.com/prinsepunk" target="_blank" aria-label="github">
+                            <i class="fab fa-github icono" aria-hidden="true"></i>
                             <p class="social-name">prinsepunk</p>
                         </a>
-                        <a class="social-red" href="mailto:planasjuliana@gmail.com" target="_blank">
-                            <i class="fab fa-google icono"></i>
+                        <a role="button" class="social-red" href="mailto:planasjuliana@gmail.com" target="_blank" aria-label="mail">
+                            <i class="fab fa-google icono" aria-hidden="true"></i>
                             <p class="social-name">planasjuliana@gmail.com</p>
                         </a>
                     </div>
@@ -231,20 +231,20 @@
                         <div class="escribime-row">
                             <div class="info-case">
                                 <label for="name">Nombre *</label>
-                                <input type="text" name="name" id="name" required>
+                                <input type="text" name="name" id="name" required placeholder="Escriba su nombre">
                             </div>
                             <div class="info-case"> 
                                 <label for="lastname">Apellido *</label>
-                                <input type="text" name="lasname" id="lastname" required>
+                                <input type="text" name="lasname" id="lastname" required placeholder="Escriba su apellido">
                             </div>
                         </div>
                         <div class="info-case">
                             <label for="email">Email *</label>
-                            <input type="email" name="email" id="email" required>
+                            <input type="email" name="email" id="email" required placeholder="Escriba su mail">
                         </div>
                         <div class="info-case">
                             <label for="message">Mensaje *</label>
-                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Escriba un mensaje acá"></textarea>
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Escriba un mensaje"></textarea>
                         </div>
                         <div class="escribime-button"> 
                             <button type="submit">Enviar</button>
@@ -258,29 +258,29 @@
         <!-- Comienzo del Footer -->
         <footer class="footer">
             <nav class="nav">
-                <a href="#hello">HOLA</a>
-                <a href="#know">CONOCIMIENTOS</a>
-                <a href="#proyects">PROYECTOS</a>
-                <a href="#contact">CONTACTO</a>
+                <a role="button" aria-label="introduccion" href="#hello">HOLA</a>
+                <a role="button" aria-label="conocimientos" href="#know">CONOCIMIENTOS</a>
+                <a role="button" aria-label="proyectos" href="#proyects">PROYECTOS</a>
+                <a role="button" aria-label="contacto" href="#contact">CONTACTO</a>
             </nav>
             <div class="footer-social">
 
-                <a href="https://github.com/prinsepunk" target="_blank">
-                    <i class="fab fa-github"></i>
+                <a role="button" aria-label="github" href="https://github.com/prinsepunk" target="_blank">
+                    <i class="fab fa-github" aria-hidden="true"></i>
                 </a>
 
-                <a href="mailto:planasjuliana@gmail.com" target="_blank">
-                    <i class="fab fa-google"></i>
+                <a role="button" aria-label="mail" href="mailto:planasjuliana@gmail.com" target="_blank">
+                    <i class="fab fa-google" aria-hidden="true"></i>
                 </a>
 
-                <a href="https://www.linkedin.com/in/julianaplanas/" target="_blank">
-                    <i class="fab fa-linkedin-in"></i>
+                <a role="button" aria-label="linkedin" href="https://www.linkedin.com/in/julianaplanas/" target="_blank">
+                    <i class="fab fa-linkedin-in" aria-hidden="true"></i>
                 </a>
 
             </div>
             <div class="firm">
                 <p>Hecho por Juliana Planas </p>
-                <img src="img/woman.png" alt="Mujer con rulos">
+                <img src="img/woman.png" alt="Emoji de mujer con rulos">
             </div>
         </footer>
         <!-- Fin del Footer -->
