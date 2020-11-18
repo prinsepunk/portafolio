@@ -169,8 +169,7 @@
     text-decoration: none;
 }
 
-@media(min-width:500px)
-and (orientation:portrait){
+@media(min-width:500px){
     
     #menu-toggle{
         display: none;
@@ -207,7 +206,7 @@ and (orientation:portrait){
     }
 }
 
-@media screen and (orientation:landscape)
+/* @media screen and (orientation:landscape)
 and (min-device-width: 500px){
    #menu-toggle{
      display: block;
@@ -220,4 +219,4 @@ and (min-device-width: 500px){
    #header{
      height: 0;
    }
-}
+} */
