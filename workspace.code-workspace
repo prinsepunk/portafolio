@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../sepicall"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ADA"
+	}
+}
