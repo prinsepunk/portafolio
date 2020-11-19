@@ -205,18 +205,3 @@
         padding: 0;
     }
 }
-
-/* @media screen and (orientation:landscape)
-and (min-device-width: 500px){
-   #menu-toggle{
-     display: block;
-   }
-
-   .menu-box{
-     display: none;
-   }
-
-   #header{
-     height: 0;
-   }
-} */

@@ -105,14 +105,3 @@
         width: 300px;
     }
 }
-
-/* @media screen and (orientation:landscape)
-and (min-device-width: 500px){
-   .hello-box{
-       flex-direction: row;
-   }
-
-   .intro-box{
-       font-size: 15px;
-   }
-} */

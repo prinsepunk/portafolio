@@ -85,21 +85,8 @@
 
     .proyect{
         width: 350px;
-        /* height: auto; */
     }
     .proyect figure img{
         width: 100%;
     }
 }
-
-/* @media screen and (orientation:landscape)
-and (min-device-width: 500px){
-   .proyect{
-       width: 200px;
-       height: 200px;
-   }
-
-   .proyect figcaption{
-       font-size: 13px;
-   }
-} */
